@@ -1,4 +1,5 @@
-# BIMC -  We propose a drug repositioning computational approach based on the target microRNAs. The approach is able to predict the potential drug-disease associations along with the causal microRNAs.
+# BIMC 
+-  We propose a drug repositioning computational approach based on the target microRNAs. The approach is able to predict the potential drug-disease associations along with the causal microRNAs.
 
 Dataset
 --
