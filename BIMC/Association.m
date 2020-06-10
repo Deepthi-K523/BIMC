@@ -19,9 +19,10 @@ for i = 1:pp
 
 end
 
-%xlswrite('.....................\Drug-MiRNA association matrix (831x540).xlsx',interaction);
 
 xlswrite('.....................\Mi-Di association matrix (540x341).xlsx',interaction);
+
+%xlswrite('.....................\Drug-MiRNA association matrix (831x540).xlsx',interaction);
 
 
 
