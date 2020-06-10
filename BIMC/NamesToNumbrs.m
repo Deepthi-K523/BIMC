@@ -1,15 +1,11 @@
 clc;clear;
 
-%[x,y,DrMi]=xlsread(['.......\630 dr-mi associations-names.xlsx']);
 [x,y,MiDi]=xlsread(['........\6082 Mi-di associations names.xlsx']);
-%[drugNo,drugID,~]=xlsread(['.................\Drug names.csv']);
 [diseaseNo,disName,~]=xlsread(['...............Disease names.xlsx']);
 [miRNAno,miRNAname,~]=xlsread(['................\MiRNA names.csv']);
 
-%miRNAno: numeric data returned as matrix of double values.
-%miRNAname: text data returned as a cell array
-
-
+%[x,y,DrMi]=xlsread(['.......\630 dr-mi associations-names.xlsx']);
+%[drugNo,drugID,~]=xlsread(['.................\Drug names.csv']);
 
 
 %DrMitxt=zeros(630,2);
@@ -62,6 +58,6 @@ end
 %en
 
 
+xlswrite('C...........\6082 Mi-Di associations numbers.xlsx',MiDitxt);
 %xlswrite('..........\630 Dr-Mi numbers.xlsx',DrMitxt);
 
-xlswrite('C...........\6082 Mi-Di associations numbers.xlsx',MiDitxt);
