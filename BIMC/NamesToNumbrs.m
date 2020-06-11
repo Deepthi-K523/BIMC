@@ -1,3 +1,5 @@
+% Commented portions represent code corresponding to Drug-miRNA associations
+
 clc;clear;
 
 [x,y,MiDi]=xlsread(['........\6082 Mi-di associations names.xlsx']);
