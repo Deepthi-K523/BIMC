@@ -1,3 +1,5 @@
+% Commented portions represent code corresponding to Drug-miRNA associations
+
 clc;clear;clear all;
 str = load(['..................\6082 Mi-Di associations numbers.txt']);
 %str = load(['...............\630 Dr-Mi numbers.txt']);
